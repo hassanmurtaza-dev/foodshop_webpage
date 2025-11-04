@@ -1,0 +1,1165 @@
+.box {
+    width: 81%;
+}
+
+.logo {
+    width: 138px;
+    height: auto;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-item {
+    font-family: "Oswald";
+    color: brown;
+    font-weight: 400;
+    padding: 3px 12px;
+}
+
+.dropdown-item:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+    color: #FFC222;
+
+}
+
+.collapse .nav-link {
+    font-family: "Oswald";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 28px;
+    color: black;
+    padding: 0 15px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+}
+
+.collapse .nav-link:hover {
+    color: rgb(72, 70, 70);
+    transform: scale(1.1);
+}
+
+.contact-btn {
+    background-color: #ffc107;
+    font-family: "Oswald";
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 17px;
+    color: white;
+    letter-spacing: 0.8px;
+    padding: 14px 38px;
+}
+
+.cart-icon {
+    position: relative;
+    margin-right: 15px;
+}
+
+.cart-icon span {
+    position: absolute;
+    top: -6px;
+    right: -9px;
+    background: black;
+    color: white;
+    font-size: 10px;
+    width: 15px;
+    font-weight: bold;
+    padding: 1px 4px;
+    border-radius: 50%;
+    height: 16px;
+}
+
+
+/* Below Navbar */
+.below-navbar {
+    height: 710px;
+    background-image: url(/pics/1st-background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* Carousel Protion */
+
+
+.one {
+    margin-top: 184px;
+    padding-left: 57px;
+}
+
+
+
+.card-custom {
+    width: 615px;
+    height: 380px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.heading {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 60px;
+    margin: 0 0 28px 0;
+}
+
+.para {
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+    margin: 0 0 44px 0;
+    max-width: 570px;
+}
+
+.extra-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 148px;
+    height: 68px;
+    border-radius: 12px;
+    border: 3px solid #F3274C;
+    background: transparent;
+    box-sizing: border-box;
+    transform: translate(11px, 4px);
+    transition: border-color .2s ease, transform .15s ease;
+}
+
+.see-more {
+    width: 152px;
+    height: 54px;
+    line-height: 48px;
+    background-color: #F3274C;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    position: absolute;
+    cursor: pointer;
+    transition: background-color .2s ease, color .2s ease, transform .2s ease;
+    font-weight: 600;
+    transform: translate(-11px, 0px);
+}
+
+.extra-box:hover .see-more,
+.see-more:hover {
+    background-color: #fff;
+    color: #F3274C;
+    transform: scale(1.02);
+}
+
+.btn-portion {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.btn-portion i {
+    border: 2px solid white;
+    padding: 20px 22px;
+    border-radius: 100px;
+}
+
+.btn-portion i:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.a {
+    font-family: "Fredoka";
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.video-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+}
+
+
+.carousel-indicators {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    transform: translate(-241px, 95px);
+
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: white;
+    border: 6px solid white;
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    background-color: black;
+    border: 6px solid #ffd40d;
+}
+
+
+
+/* Weekly special */
+
+
+.weekly-special {
+    width: 330px;
+    height: 181px;
+    border-radius: 30px;
+    border: 3px solid #FFD40D;
+    background-color: rgb(0, 0, 0, 0.8);
+    backface-visibility: 80%;
+    position: relative;
+    transform: translate(190px, 480px);
+}
+
+.weekly-special .span {
+    width: 105px;
+    height: 23px;
+    border-radius: 3px;
+    background-color: #f3274c;
+    color: white;
+    font-family: "Epilogue";
+    font-weight: 400;
+    padding: 4px 8px;
+    font-size: 12px;
+    position: absolute;
+    transform: translate(179px, -13px);
+}
+
+
+.weekly-special h6 {
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-style: Solid;
+    font-size: 28px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+}
+
+.weekly-special p {
+    font-family: "Fredoka";
+    font-weight: 500;
+    font-style: Solid;
+    font-size: 22px;
+    letter-spacing: 0%;
+    margin-bottom: 3px;
+}
+
+
+
+/* 3rd portion */
+.about {
+    color: #F3274C;
+    font-family: "Fredoka";
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.new-ground {
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    width: 400px;
+}
+
+.id-para {
+    font-family: "Epilogue";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    width: 85%;
+}
+
+
+.id-info p {
+    font-family: "Fredoka";
+    font-size: 25px;
+}
+
+.id-info h6 {
+    font-family: "Epilogue";
+    font-size: 14px;
+}
+
+
+.outline-box {
+    position: absolute;
+    background-color: transparent;
+    border: 5px solid #FFD40D;
+    width: 320px;
+    height: 420px;
+    opacity: 1;
+    border-radius: 30px;
+    transform: translate(16px, -434px);
+}
+
+.outline-box button {
+    width: 315px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #FFD40D;
+    border: none;
+    transform: translate(-3px, 351px);
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.outline-box button:hover {
+    background-color: black;
+    border: 5px solid #FFD40D;
+    color: #FFD40D;
+}
+
+.four-block div {
+    position: relative;
+    /* needed for ::after */
+    border: 5px solid #E4E4E4;
+    border-radius: 20px;
+    background-color: transparent;
+    height: 190px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    color: #f53157;
+}
+
+.four-block div:hover {
+    border: 5px solid #f53157;
+    background-color: #f53157;
+    color: white !important;
+}
+
+
+.four-block div::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #f53157;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    opacity: 0;
+    transform: translateY(18px);
+
+}
+
+
+.four-block div:hover::after {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.four-block p {
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: capitalize;
+
+}
+
+.four-block i {
+    font-size: 70px;
+}
+
+
+.chicken {
+    position: relative;
+    z-index: 10;
+}
+
+.price-box {
+    position: relative;
+    z-index: 0;
+    width: 853px;
+    height: 554px;
+    border-radius: 30px;
+    background-color: #F5F8FD;
+    padding: 83px 75px 83px 236px;
+}
+
+.price-box h4 {
+    font-size: 40px;
+    font-family: "Fredoka";
+    font-weight: 600;
+}
+
+.price-box h5 {
+    font-size: 22px;
+    font-family: "Fredoka";
+    font-weight: 600;
+}
+
+.price-box h6 {
+    font-size: 22px;
+    font-family: "Fredoka";
+    font-weight: 600;
+    color: #f53157;
+}
+
+.price-box p {
+    font-size: 15px;
+    font-family: "Epilogue";
+    font-weight: 400;
+    border-bottom: 3px dashed black;
+    padding-bottom: 15px;
+}
+
+.discover-menu h1 {
+    font-family: "Fredoka";
+    font-weight: 700;
+    font-size: 60px;
+    /* text-align: center; */
+}
+
+.hr {
+    width: 270px;
+    height: 10px;
+    border-radius: 30px;
+    background-color: #FFD40D;
+}
+
+.hrr {
+    width: 193px;
+    height: 4px;
+    border-radius: 30px;
+    background-color: #FFD40D;
+    margin-bottom: 32px;
+}
+
+.menu-banner .box1 {
+    background-image: url(/pics/banner1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 560px;
+    height: 329px;
+    border-radius: 30px;
+}
+
+.menu-banner .box2 {
+    background-image: url(/pics/banner2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 560px;
+    height: 329px;
+    border-radius: 30px;
+}
+
+.menu-banner h3 {
+    color: white;
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.menu-banner p {
+    color: white;
+    font-family: "Epilogue";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding-right: 216px;
+}
+
+
+.menu-banner h5 {
+    color: #f53157;
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+.menu-banner h6 {
+    color: black;
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.menu-banner .yellow {
+    background-color: #FFD40D;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    transform: translate(15px, 54px);
+}
+
+.background-grey-box {
+    background-color: #F5F8FD;
+    height: 1080px;
+    position: absolute;
+    width: 100%;
+    z-index: -10;
+    margin-top: 130px;
+}
+
+.form {
+    background-image: url(/pics/form.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1170px;
+    height: 335px;
+    border-radius: 30px;
+}
+
+.form h2 {
+    font-family: "Fredoka";
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.form p {
+    font-family: "Epilogue";
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.input {
+    border-radius: 7px !important;
+    margin: 4px !important;
+    padding-left: 20px;
+    font-weight: 500;
+    border: none;
+}
+
+
+/* Calendar popup customization */
+.flatpickr-day.selected {
+    background-color: #FFD40D !important;
+    color: #000 !important;
+}
+
+.flatpickr-day:hover {
+    background-color: #FFD40D33 !important;
+}
+
+.flatpickr-months .flatpickr-month {
+    background-color: #f53157;
+    color: white;
+}
+
+.flatpickr-time input {
+    color: #f53157 !important;
+    font-weight: bold;
+}
+
+input::placeholder {
+    color: #555555;
+    font-family: "Epilogue";
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+
+.form-extra-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 148px;
+    height: 68px;
+    border-radius: 12px;
+    border: 3px solid #FFD40D;
+    background: transparent;
+    box-sizing: border-box;
+    transform: translate(668px, 32px);
+    transition: border-color .2s ease, transform .15s ease;
+}
+
+.form-see-more {
+    width: 152px;
+    height: 54px;
+    line-height: 48px;
+    background-color: #FFD40D;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    position: absolute;
+    cursor: pointer;
+    transition: background-color .2s ease, color .2s ease, transform .2s ease;
+    font-weight: 600;
+    transform: translate(-11px, 0px);
+}
+
+.form-extra-box:hover .form-see-more,
+.form-see-more:hover {
+    background-color: black;
+    color: #FFD40D;
+    transform: scale(1.02);
+}
+
+
+.carousel-container {
+    overflow: hidden;
+    width: 93%;
+}
+
+.circle-group {
+    transform: translate(16px, -84px);
+}
+
+.circle-shape {
+    background-color: #F3274C;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.card-track {
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+    /* 👈 Smooth slide animation */
+}
+
+.carousel-card {
+    min-width: 373px;
+    height: 460px;
+    margin: 0 10px;
+    background: #f5f5f5;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+}
+
+.carousel-card img {
+    position: absolute;
+    transform: translate(20px, -75px);
+}
+
+.carousel-card h6 {
+    background-color: #FFD40D;
+    color: black;
+    border-radius: 100px;
+    padding: 23px 13px 23px 12px;
+    transform: translate(-153px, -58px);
+    font-weight: 600;
+    font-family: "Fredoka";
+    font-size: 18px;
+}
+
+.carousel-card p {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Fredoka";
+    margin-bottom: 4px;
+}
+
+.carousel-card h4 {
+    font-size: 18px;
+    font-weight: 1000;
+    color: #555555;
+    font-family: "Fredoka";
+    font-weight: 700;
+}
+
+.carousel-card h5 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #555555;
+    font-family: "Fredoka";
+    padding: 0;
+}
+
+.carousel-card span {
+    font-size: 26px;
+    font-weight: 700;
+    color: #F3274C;
+    font-family: "Fredoka";
+    padding: 0;
+}
+
+.carousel-buttons {
+    transform: translate(-68px, 45px);
+    position: inherit;
+}
+
+.bag-icon {
+    position: inherit;
+    transform: translate(134px, 22px);
+    font-size: 16px;
+    padding: 12px 14px;
+    background-color: #FFD40D;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.bag-icon:hover {
+    background-color: black;
+    color: #FFD40D;
+}
+
+
+.custom-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.custom-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #444;
+    border: 2px solid #444;
+    opacity: 1;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.custom-indicators .active {
+    background-color: white;
+    border: 2px solid #f53157;
+}
+
+
+.feedback {
+    margin-top: 270px;
+}
+
+
+.card-customs {
+    background-color: transparent;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 610px;
+    height: 285px;
+    border-radius: 30px;
+    border: 5px solid #FFD40D;
+
+}
+
+.tt {
+    font-family: "Epilogue";
+    font-weight: 400;
+    size: 14px;
+    color: #555555;
+}
+
+.bratlee {
+    font-family: "Fredoka";
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#feedbackCarousel .carousel-indicators [data-bs-target] {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #B5B5B5;
+    border: 6px solid #B5B5B5;
+    opacity: 1;
+    transform: translate(-29px, -32px) !important;
+}
+
+#feedbackCarousel .carousel-indicators .active {
+    background-color: white;
+    border: 6px solid #f53157;
+}
+
+.banner1 {
+    transform: translate(220px, 0px);
+}
+
+.banner2 {
+    transform: translate(-203px, 188px);
+}
+
+.banner3 {
+    transform: translate(317px, 23px);
+}
+
+.chef-team {
+    width: 380px;
+    height: 380px;
+    border-radius: 190px;
+    border: 5px solid #E4E4E4;
+    transform: translate(49px, -191px);
+    background-color: white;
+}
+
+.chef-team h6 {
+    font-family: "Fredoka";
+    color: #F3274C;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+.chef-team p {
+    font-family: "Fredoka";
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-size: 35px;
+    line-height: 42px;
+}
+
+.grey-small-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #F5F8FD;
+}
+
+.app-banner {
+    background-color: #f6f7fc;
+    width: 100%;
+    height: 602px;
+    padding: 0px;
+}
+
+.app-banner h6 {
+    font-family: "Fredoka";
+    color: #f53157;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.app-banner p {
+    font-family: "Fredoka";
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.app-banner li {
+    font-family: "Epilogue";
+    font-weight: 300;
+    color: #555555;
+    font-size: 18px !important;
+}
+
+.socialG {
+    width: 170px;
+    background-color: #f53157;
+    color: white;
+    height: 55px;
+    border-radius: 12px;
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 18px;
+    border: 5px solid #f53157;
+    transition: transform 0.3s ease;
+}
+
+.socialA {
+    width: 170px;
+    background-color: black;
+    color: white;
+    height: 55px;
+    border-radius: 12px;
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 18px;
+    border: 5px solid black;
+    transition: transform 0.3s ease;
+}
+
+.socialG:hover {
+    background-color: white;
+    color: #f53157;
+    border: 5px solid #f53157;
+    transform: scale(1.05);
+}
+
+.socialA:hover {
+    background-color: white;
+    color: black;
+    border: 5px solid black;
+    transform: scale(1.05);
+}
+
+.half-red-curve {
+    background-color: #f3274c;
+    width: 52%;
+    z-index: 0;
+    position: absolute;
+    height: 385px;
+    margin: 0px 40%;
+    transform: translate(122px, 115px);
+    border-top-left-radius: 50px;
+    border-top-left-radius: 360px;
+    border-bottom-left-radius: 360px;
+}
+
+.colored-bullets {
+    list-style: none;
+    padding-left: 0;
+}
+
+.colored-bullets li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.colored-bullets li::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    background: white;
+    border: 5px solid #FFD40D;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.leaf {
+    position: inherit;
+    transform: translate(-65px, -50px);
+    z-index: 10;
+}
+
+.driver {
+    position: inherit;
+    transform: translate(-158px, 277px);
+    z-index: 10;
+}
+
+.mobile {
+    position: inherit;
+    transform: translate(110px, -110px);
+    z-index: 10;
+}
+
+.pizza-pan {
+    position: inherit;
+    transform: translate(339px, -688px);
+    z-index: 10;
+}
+
+.salad-pan {
+    position: inherit;
+    transform: translate(179px, -421px);
+    z-index: 10;
+}
+
+.recent h6 {
+    font-family: "Fredoka";
+    font-weight: 600;
+    background-color: #FFD40D;
+    padding: 2px 7px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.recent p {
+    font-family: "Fredoka";
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.recent h5 {
+    font-family: "Fredoka";
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.instagram {
+    background-image: url(/pics/insta.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 530px;
+    width: 100%;
+    margin-top: 90px;
+}
+
+
+.instagram i {
+    font-size: 40px;
+    color: white;
+    background-color: #f53157;
+    border-radius: 100px;
+    padding: 16px 19px;
+}
+
+.instagram p {
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.instagram h6 {
+    font-family: "Epilogue";
+    font-weight: 400;
+    color: #555555;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #F5F8FD;
+    height: 670px;
+}
+
+.footer .red-box {
+    width: 365px;
+    height: 360px;
+    background-color: #F3274C;
+    border-radius: 30px;
+}
+
+.footer .red-box p {
+    font-family: "Fredoka";
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+.footer .line {
+    width: 75px;
+    height: 5px;
+    background-color: #FFD40D;
+}
+
+.footer h3 {
+    font-family: "Fredoka";
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 0px;
+}
+
+.footer .bullets {
+    text-decoration: none;
+    font-family: "Epilogue";
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.chevron-list {
+    list-style: none;
+    padding: 0;
+}
+
+.chevron-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.chevron-list li::before {
+    content: "›";
+    position: absolute;
+    left: 0;
+    font-family: "Epilogue";
+    font-weight: 500;
+    bottom: -10px;
+    font-size: 30px;
+}
+
+
+#email {
+    width: 295px;
+    height: 55px;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+    background-color: #FFFF;
+}
+
+#email::placeholder {
+    color: #C6C6C6;
+    font-family: "Epilogue";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer .right {
+    position: absolute;
+    width: 152px;
+    height: 367px;
+    left: 0px;
+    top: 8259px;
+}
+
+.footer .foot2 {
+    position: absolute;
+    width: 208px;
+    height: 360px;
+    right: 0px;
+    top: 8266px;
+}
+
+.footerline {
+    height: 6px;
+    background-color: #FFD40D;
+    width: 91%;
+    margin-top: 100px !important;
+    position: relative;
+    z-index: 100;
+}
+
+.below-line h6 {
+    font-family: "Fredoka";
+    font-weight: 600;
+    color: #F3274C;
+    font-size: 16px;
+}
+
+
+.below-line p {
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.below-line h3 {
+    font-family: "Fredoka";
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+}

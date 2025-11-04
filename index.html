@@ -1,0 +1,822 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>TasteNest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container box">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img class="logo" src="/pics/logo.png" alt="Logo">
+            </a>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-3" href="#" id="homeDropdown" role="button"
+                            data-bs-toggle="dropdown">Home <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Home 1</a></li>
+                            <li><a class="dropdown-item" href="#">Home 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">About Us</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="shopDropdown" role="button"
+                            data-bs-toggle="dropdown">Shop <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Products</a></li>
+                            <li><a class="dropdown-item" href="#">Categories</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#">Blog </i></a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-3" href="#" id="pagesDropdown" role="button"
+                            data-bs-toggle="dropdown">Pages <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Page 1</a></li>
+                            <li><a class="dropdown-item" href="#">Page 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Right Side -->
+            <div class="d-flex align-items-center">
+                <!-- Cart -->
+                <div class="cart-icon">
+                    <img src="/pics/cart.png" alt="Cart" height="20">
+                    <span>1</span>
+                </div>
+                <!-- Contact Button -->
+                <a href="#" class="btn contact-btn">Contact Us</a>
+            </div>
+
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <!-- Below Navbar Carousal Portion -->
+    <div class="container-fluid below-navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-6  one">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card-custom mx-auto mb-3">
+                                    <h6 class="heading ">The Perfect Space to Enjoy Fantastic Food</h6>
+                                    <p class="para ">Festive dining at Farthings where we are strong believers in using
+                                        the very
+                                        best
+                                        produce
+                                    </p>
+
+                                    <div class="btn-portion">
+                                        <div class="extra-box me-5">
+                                            <button class="see-more ">See Our Menus</button>
+                                        </div>
+                                        <i class="fa-solid fa-play mx-4"></i>
+                                        <a href="#" class="a mb-0 mx-4">Video</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card-custom mx-auto mb-3">
+                                    <h6 class="heading ">A place made for unforgettable dining</h6>
+                                    <p class="para ">Gourmet moments at The Haven where we are passionate about using
+                                        the finest
+                                        produce
+                                    </p>
+
+                                    <div class="btn-portion">
+                                        <div class="extra-box me-5">
+                                            <button class="see-more ">See Our Menus</button>
+                                        </div>
+                                        <i class="fa-solid fa-play mx-4"></i>
+                                        <a href="#" class="a mb-0 mx-4">Video</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card-custom mx-auto mb-3">
+                                    <h6 class="heading ">Cozy place to share delicious meals</h6>
+                                    <p class="para ">Elegant gatherings at The Pavilion where we are firm believers in
+                                        the art of
+                                        fine cuisine.
+                                    </p>
+
+                                    <div class="btn-portion">
+                                        <div class="extra-box me-5">
+                                            <button class="see-more ">See Our Menus</button>
+                                        </div>
+                                        <i class="fa-solid fa-play mx-4"></i>
+                                        <a href="#" class="a mb-0 mx-4">Video</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="weekly-special">
+                        <span class="span">Weekly Special</span>
+                        <div class="row">
+                            <div class="col ps-4 pt-4">
+                                <h6 class="text-white ps-2 pt-3"><span style="color:#F3274C;">$</span>90.85</h6>
+                                <p class="sicilan text-white ps-2">Sicilian Pizza</p>
+                                <div class="star text-warning ps-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="col pt-3 pe-4">
+                                <img src="/pics/pizza.png" alt="pizza" width="150px" height="150px">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- 3rd protion 2 para -->
+    <div class="container">
+        <div class="row mt-5 pt-5">
+            <div class="col ps-5">
+                <p class="about ">About The Food Restaurant</p>
+                <h4 class="new-ground">New Ground with Dishes to be Enjoyed</h4>
+            </div>
+            <div class="col d-flex flex-column">
+                <p class="id-para">
+                    Nisl quam nestibulum ac quam nec odio eleme aucan ligula. Orci
+                    varius nat oque pena tibus et urient monte nascete ridiculus mus
+                    nellentesq um ac qu am nec odio rbine. Nisl quam nestibu aucan
+                    ligula.
+                </p>
+                <div class="id d-flex flex-row">
+                    <img src="/pics/profile.png" alt="Profile" width="65px" height="65px">
+                    <span class="id-info ps-3">
+                        <p class="mb-0">Willimes James</p>
+                        <h6>Director and Chief Operations Officer</h6>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 3 pics Portion -->
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col ps-5 pe-0">
+                <img src="/pics/pic1.png" alt="Picture" width="350px" height="450px">
+                <div class="outline-box">
+                    <button>Restaurant</button>
+                </div>
+            </div>
+            <div class="col px-0 pt-5">
+                <img src="/pics/pic2.png" alt="Picture" width="350px" height="450px">
+                <div class="outline-box">
+                    <button>Coctail Bar</button>
+                </div>
+            </div>
+            <div class="col ps-0 pe-5">
+                <img src="/pics/pic3.png" alt="Picture" width="350px" height="450px">
+                <div class="outline-box">
+                    <button>Private Dining</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Food block -->
+    <div class="container my-5  ">
+        <div class="mb-5 four-block d-flex justify-content-center align-items-center ">
+            <div class="mx-3 d-flex justify-content-center align-items-center flex-column">
+                <i class="fa-solid fa-stroopwafel"></i>
+                <p class="pt-3 text-black">Desert</p>
+            </div>
+            <div class="mx-3 d-flex justify-content-center align-items-center flex-column">
+                <i class="fa-solid fa-bowl-rice"></i>
+                <p class="pt-3 text-black">Steak</p>
+            </div>
+            <div class="mx-3 d-flex justify-content-center align-items-center flex-column">
+                <i class="fa-solid fa-mug-hot"></i>
+                <p class="pt-3 text-black">Coffee</p>
+            </div>
+            <div class="mx-3 d-flex justify-content-center align-items-center flex-column">
+                <i class="fa-solid fa-burger"></i>
+                <p class="pt-3 text-black">Burger</p>
+            </div>
+
+        </div>
+        <div class="row mt-5 ps-4    d-flex flex-row">
+            <div class="col-3 mt-5 pt-2">
+                <img class="chicken" src="/pics/chicken.png" alt="Chicken" width="600px" height="500px">
+            </div>
+            <div class="col-8 ">
+                <div class="price-box mt-2">
+                    <h4>BBQ</h4>
+                    <span class="d-flex justify-content-between flex-row">
+                        <h5>Sake BBQ sauce</h5>
+                        <h6>$9.00</h6>
+                    </span>
+                    <p>radish, black sesame seeds, coriander</p>
+                    <span class="d-flex justify-content-between flex-row">
+                        <h5>BBQ baby back ribs</h5>
+                        <h6>$16.00</h6>
+                    </span>
+                    <p>sticky Asian glaze, charred lime, chilli cashews</p>
+                    <span class="d-flex justify-content-between flex-row">
+                        <h5>Half smoked chicken</h5>
+                        <h6>$34.00</h6>
+                    </span>
+                    <p>miso butter glaze, charred lime wedge, sake bbq</p>
+                    <span class="d-flex justify-content-between flex-row">
+                        <h5>Dusted chicken wings</h5>
+                        <h6>$40.00</h6>
+                    </span>
+                    <p>tossed in Korean hot sauce, pickled radish</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Discover Menu -->
+    <div class="discover-menu container mt-5 pt-4">
+        <div class="d-flex text-center align-items-center  justify-content-between flex-column">
+            <h1>Discover Menu</h1>
+            <div class="hr"></div>
+        </div>
+    </div>
+    <!-- ******* -->
+    <div class="menu-banner container d-flex ps-4 mt-5 pt-5 mb-5">
+        <div class="ms-4 me-4 box1 px-4 py-5">
+            <h3>Steaks & BBQ</h3>
+            <p>canonical classics to obscure
+                tiki drinks</p>
+            <div class="yellow d-flex flex-column text-center justify-content-center align-items-center">
+                <h5>$120</h5>
+                <h6>person</h6>
+            </div>
+        </div>
+        <div class=" mx-4 box2 px-4 py-5">
+            <h3>Cocktails</h3>
+            <p>canonical classics to obscure
+                tiki drinks</p>
+            <div class="yellow d-flex flex-column text-center justify-content-center align-items-center">
+                <h5>$120</h5>
+                <h6>person</h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- background color box -->
+    <div class="contanier-fluid background-grey-box">
+    </div>
+
+
+    <!-- Form -->
+    <div class="ps-5 container">
+        <div class="form">
+            <div class="row">
+                <div class="col-3 mt-5 ps-5">
+                    <h2>RESERVE A TABLE</h2>
+                    <div class="hrr"></div>
+                    <p>Discover our New Menu !</p>
+                </div>
+                <div class="col-9 mt-5">
+                    <form action="action.php">
+                        <div class="pt-3 d-flex justify-content-center flex-row">
+                            <input type="text" class=" input" placeholder="No of Guest" name="guest" id="guest"
+                                style="width:365px;height:50px;">
+
+                            <input type="text" id="datepicker" class="input form-control" placeholder="Date"
+                                style="width:180px;height:50px;">
+                            <!-- Time Picker -->
+                            <input type="text" id="timepicker" class="input form-control" placeholder="Time"
+                                style="width:180px;height:50px;">
+
+                        </div>
+                        <div class="d-flex justify-content-center flex-row">
+                            <input type="text" class=" input" placeholder="Full Name" name="name" id="name"
+                                style="width:365px;height:50px;">
+                            <input type="tel" class=" input" placeholder="Phone No" name="phone" id="phone"
+                                style="width:370px;height:50px;">
+                        </div>
+                        <div class="form-extra-box">
+                            <button class="form-see-more ">See Our Menus</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Dishes -->
+    <div class="discover-menu container mt-5 pt-4">
+        <div class="d-flex text-center align-items-center  justify-content-between flex-column">
+            <h1>Featured Dishes</h1>
+            <div class="hr"></div>
+        </div>
+    </div>
+
+    <!-- Featured Dieshes Carousel -->
+    <div class="container  text-center my-2">
+        <div id="customCarousel" class="position-relative">
+            <div class="carousel-container ps-4">
+                <div class="card-track" id="cardTrack">
+                    <!-- Card 1 -->
+                    <div class="carousel-card d-flex flex-column">
+                        <h6>SALE</h6>
+                        <div class="d-flex circle-group">
+                            <div class="circle-shape"></div>
+                            <div class="circle-shape"></div>
+                        </div>
+                        <img src="/pics/chicken.png" alt="Chicken" width="260px" height="230px">
+
+                        <div class="carousel-buttons d-flex justify-content-start align-items-start flex-column">
+                            <p>Crispy Fried Chicken</p>
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <div class="d-flex flex-row align-items-center">
+                                    <h4 class="mb-0" style="margin-right:4px;">$14.85</h4>
+                                    <span style="margin-right:2px;">$</span>
+                                    <h5 class="mb-0">10.85</h5>
+                                </div>
+                                <i class="fa-solid fa-bag-shopping bag-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="carousel-card d-flex flex-column">
+                        <h6>SALE</h6>
+                        <div class="d-flex circle-group">
+                            <div class="circle-shape"></div>
+                            <div class="circle-shape"></div>
+                        </div>
+                        <img src="/pics/pizza2.png" alt="Chicken" width="260px" height="230px">
+
+                        <div class="carousel-buttons d-flex justify-content-start align-items-start flex-column">
+                            <p>Crispy Fried Chicken</p>
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <div class="d-flex flex-row align-items-center">
+                                    <h4 class="mb-0" style="margin-right:4px;">$14.85</h4>
+                                    <span style="margin-right:2px;">$</span>
+                                    <h5 class="mb-0">10.85</h5>
+                                </div>
+                                <i class="fa-solid fa-bag-shopping bag-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="carousel-card d-flex flex-column">
+                        <h6>SALE</h6>
+                        <div class="d-flex circle-group">
+                            <div class="circle-shape"></div>
+                            <div class="circle-shape"></div>
+                        </div>
+                        <img src="/pics/cup.png" alt="Chicken" width="260px" height="230px">
+
+                        <div class="carousel-buttons d-flex justify-content-start align-items-start flex-column">
+                            <p>Crispy Fried Chicken</p>
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <div class="d-flex flex-row align-items-center">
+                                    <h4 class="mb-0" style="margin-right:4px;">$14.85</h4>
+                                    <span style="margin-right:2px;">$</span>
+                                    <h5 class="mb-0">10.85</h5>
+                                </div>
+                                <i class="fa-solid fa-bag-shopping bag-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="carousel-card d-flex flex-column">
+                        <h6>SALE</h6>
+                        <div class="d-flex circle-group">
+                            <div class="circle-shape"></div>
+                            <div class="circle-shape"></div>
+                        </div>
+                        <img src="/pics/pizza2.png" alt="Chicken" width="260px" height="230px">
+
+                        <div class="carousel-buttons d-flex justify-content-start align-items-start flex-column">
+                            <p>Crispy Fried Chicken</p>
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <div class="d-flex flex-row align-items-center">
+                                    <h4 class="mb-0" style="margin-right:4px;">$14.85</h4>
+                                    <span style="margin-right:2px;">$</span>
+                                    <h5 class="mb-0">10.85</h5>
+                                </div>
+                                <i class="fa-solid fa-bag-shopping bag-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="carousel-card d-flex flex-column">
+                        <h6>SALE</h6>
+                        <div class="d-flex circle-group">
+                            <div class="circle-shape"></div>
+                            <div class="circle-shape"></div>
+                        </div>
+                        <img src="/pics/cup.png" alt="Chicken" width="260px" height="230px">
+
+                        <div class="carousel-buttons d-flex justify-content-start align-items-start flex-column">
+                            <p>Crispy Fried Chicken</p>
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <div class="d-flex flex-row align-items-center">
+                                    <h4 class="mb-0" style="margin-right:4px;">$14.85</h4>
+                                    <span style="margin-right:2px;">$</span>
+                                    <h5 class="mb-0">10.85</h5>
+                                </div>
+                                <i class="fa-solid fa-bag-shopping bag-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Indicators -->
+            <div class="custom-indicators my-4 position-static">
+                <button type="button" data-slide="0" class="active"></button>
+                <button type="button" data-slide="1"></button>
+                <button type="button" data-slide="2"></button>
+                <button type="button" data-slide="3"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Customer Feedback -->
+    <div class="container feedback mb-4">
+        <div class="row mt-5 pt-5">
+            <div class="col ps-5">
+                <p class="about ">Testimonials & Reviews</p>
+                <h4 class="new-ground">Our Customer Feedback</h4>
+
+                <div id="feedbackCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+                    <div class=" carousel-indicators">
+                        <button type="button" data-bs-target="#feedbackCarousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#feedbackCarousel" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#feedbackCarousel" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card-customs mx-auto mb-3">
+                                <h4 class="tt p-4">A good restaurant is like a vacation; it
+                                    transports you, and it becomes a lot more
+                                    than just about the food. All great deeds
+                                    and all great thoughts</h3>
+                                    <h4 class="bratlee px-4">Bratlee Hamint</h4>
+                                    <div class="yellow-circle"></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card-customs mx-auto mb-3">
+                                <h4 class="tt p-4">A memorable meal is not just about taste; it’s the warmth, the
+                                    laughter, and the little details that make every bite unforgettable. Dining here
+                                    feels like being part of a story you’ll want to relive again and again</h3>
+                                    <h4 class="bratlee px-4">Bill Gates</h4>
+                                    <div class="yellow-circle"></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card-customs mx-auto mb-3">
+                                <h4 class="tt p-4">Food has the power to bring people together. This restaurant captures
+                                    that perfectly — blending flavors, ambiance, and genuine care into an experience
+                                    that nourishes both the body and the soul</h3>
+                                    <h4 class="bratlee px-4">Jhon Whick</h4>
+                                    <div class="yellow-circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col ps-4">
+                <img class="banner1" src="/pics/feedback1.png" alt="picture" width="240px" height="240px">
+                <img class="banner2" src="/pics/feedback2.png" alt="picture" width="240px" height="240px">
+                <img class="banner3" src="/pics/feedback3.png" alt="picture" width="240px" height="240px">
+            </div>
+        </div>
+    </div>
+
+    <!-- Meet Our Experts -->
+    <div class="discover-menu container mt-5 pt-5">
+        <div class="d-flex text-center align-items-center  justify-content-between flex-column">
+            <h1>Meet Our Experts</h1>
+            <div class="hr"></div>
+        </div>
+    </div>
+
+    <!-- Chefs -->
+    <div class="container mt-3  d-flex">
+        <div>
+            <img class="px-4" src="/pics/chef1.png" alt="Chef 1" width="413px" height="544px">
+            <div class="chef-team d-flex justify-content-center align-items-center flex-column gap-3">
+                <h6>Dessert specialist</h6>
+                <p>Thomas Walim</p>
+                <span class="d-flex">
+                    <div class="grey-small-circle"></div>
+                    <div class="grey-small-circle"></div>
+                    <div class="grey-small-circle"></div>
+                </span>
+                <img src="/pics/signature.png" alt="Signature" width="139px" height="27px">
+            </div>
+        </div>
+        <div>
+            <img class="px-4" src="/pics/chef2.png" alt="Chef 2" width="413px" height="544px">
+            <div class="chef-team d-flex justify-content-center align-items-center flex-column gap-3">
+                <h6>Chef Master</h6>
+                <p>James Jhonson</p>
+                <span class="d-flex">
+                    <div class="grey-small-circle"></div>
+                    <div class="grey-small-circle"></div>
+                    <div class="grey-small-circle"></div>
+                </span>
+                <img src="/pics/signature.png" alt="Signature" width="139px" height="27px">
+            </div>
+        </div>
+        <div>
+            <img class="px-4" src="/pics/chef3.png" alt="Chef 3" width="413px" height="544px">
+            <div class="chef-team d-flex justify-content-center align-items-center flex-column gap-3">
+                <h6>Dessert specialist</h6>
+                <p>Room Minal</p>
+                <span class="d-flex">
+                    <div class="grey-small-circle"></div>
+                    <div class="grey-small-circle"></div>
+                    <div class="grey-small-circle"></div>
+                </span>
+                <img src="/pics/signature.png" alt="Signature" width="139px" height="27px">
+            </div>
+        </div>
+    </div>
+
+    <!-- App Banner -->
+    <div class="container-fluid mb-5 app-banner mx-0">
+        <div class="half-red-curve"></div>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col pt-5 mt-5 ps-5">
+                    <h6>Best App For Foods Ordering</h6>
+                    <p>Manage Your Resturant Anytime! Anything</p>
+                    <ul class="colored-bullets">
+                        <li>Higher Reach - Minimal Effort</li>
+                        <li>Showcase your Brand</li>
+                        <li>Exclusive offers & discounts</li>
+                    </ul>
+                    <button class="socialG"><i class="fa-brands fa-google-play pe-1"></i>Google Play</button>
+                    <button class="socialA ms-3"><i class="fa-brands fa-apple pe-1"></i>App Store</button>
+                </div>
+                <div class="col">
+                    <img class="leaf" src="/pics/leaf.png" alt="Leaf" height="75px" width="40px">
+                    <img class="driver" src="/pics/driver.png" alt="Driver" height="242px" width="241px">
+                    <img class="mobile" src="/pics/mbl.png" alt="Mobile" height="470px" width="400px">
+                    <img class="pizza-pan" src="/pics/pizza-pan.png" alt="Pizza Pan" height="159px" width="279px">
+                    <img class="salad-pan" src="/pics/slad-pan.png" alt="Salad Pan" height="195px" width="220px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent News -->
+    <div class="discover-menu container mt-5 pt-5">
+        <div class="d-flex text-center align-items-center  justify-content-between flex-column">
+            <h1>Recent News</h1>
+            <div class="hr"></div>
+        </div>
+    </div>
+
+
+    <!-- Recent News Content -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col recent d-flex justify-content-start ps-5">
+                <img src="/pics/recent-new-1.png" alt="Recent news 1" width="260px" height="275px"
+                    style="border-radius: 30px;">
+                <div class="ps-4 d-flex justify-content-center align-items-start flex-column">
+                    <h6>April 6, 2023</h6>
+                    <p>Creamy Chicken
+                        Alfredo</p>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="/pics/profile.png" alt="Profile" width="55px" height="55px">
+                        <h5 class="ps-2">Willimes Thomas</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col recent d-flex justify-content-start">
+                <img src="/pics/recent-new-2.png" alt="Recent news 2" width="260px" height="275px"
+                    style="border-radius: 30px;">
+                <div class="ps-4 d-flex justify-content-center align-items-start flex-column">
+                    <h6>May 8, 2023</h6>
+                    <p>Air Fryer Salmon</p>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="/pics/profile.png" alt="Profile" width="55px" height="55px">
+                        <h5 class="ps-2">Anna De Arams</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Instagram Portion -->
+    <div class="container-fluid instagram d-flex justify-content-center align-items-center mb-5">
+        <div class="container ps-5 d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-brands fa-instagram"></i>
+            <p>Follow @shawonetc3</p>
+            <h6>Join our community to inspire your desires</h6>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="container-fluid pt-5 footer  d-flex">
+        <img src="/pics/foot1.png" alt="Image" class="right">
+        <div class="container py-5 mb-5 ps-5">
+            <div class="row">
+                <div class="col-3">
+                    <div class="red-box d-flex justify-content-between flex-column">
+                        <img src="/pics/white-logo.png" alt="Logo" width="170px" height="114px">
+                        <div class="ps-5 close">
+                            <p>Tuesday – Saturday: 12:00pm – 23:00pm</p>
+                            <p>Closed on Sunday</p>
+                        </div>
+                        <p class="ps-5">5 star rated on TripAdvisor</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="d-flex justify-content-start align-items-center flex-column">
+                        <h3 class="pt-4 mt-3">About</h3>
+                        <div class="line"></div>
+                        <ul class=" ps-5 mt-5 chevron-list">
+                            <li>
+                                <a href="#" class="bullets">Fredoka One</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bullets">Special Dish</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bullets">Reservation</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bullets">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="d-flex justify-content-start align-items-start flex-column">
+                        <h3 class="pt-4 mt-3">Menu</h3>
+                        <div class="line" style="width: 65px"></div>
+                        <ul class="mt-5 chevron-list">
+                            <li>
+                                <a href="#" class="bullets">Steak</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bullets">Burgers</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bullets">Coctails</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bullets">Bar B Q</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bullets">Desserts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="d-flex justify-content-start align-items-start flex-column">
+                        <h3 class="pt-4 mt-3">Newsletter</h3>
+                        <div class="line" style="width: 130px"></div>
+                        <p class="pt-5 pb-2">Get recent news and updates.</p>
+                        <input class="ps-4" type="email" name="email" id="email" placeholder="Email Address">
+                        <div class="btn-portion">
+                            <div class="extra-box ">
+                                <button class="see-more ">See Our Menus</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerline mt-5 pe-5"></div>
+            <div class=" ps-4 row below-line">
+                <div class="col-8  d-flex justify-content-start align-items-center">
+                    <h6 class="mt-2">© 2025 TesteNest</h6>
+                    <p class="ps-2 mt-2 pt-2">| All shawonetc3 Themes</p>
+                </div>
+                <div class="col-2">
+                    <h3 class="mt-2 pt-2">Facebook</h3>
+                </div>
+                <div class="col-2">
+                    <h3 class="mt-2 pt-2">Instagram</h3>
+                </div>
+            </div>
+        </div>
+
+        <img src="/pics/foot2.png" alt="Images" class="foot2">
+    </div>
+
+
+    <!-- Divider -->
+    <div class="container">
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+        // 📅 Date Picker
+        flatpickr("#datepicker", {
+            dateFormat: "d-m-Y",
+            allowInput: true
+        });
+
+        // ⏰ Time Picker
+        flatpickr("#timepicker", {
+            enableTime: true,
+            noCalendar: true,
+            dateFormat: "h:i K", // 12-hour format with AM/PM
+            time_24hr: false,
+            allowInput: true
+        });
+    </script>
+
+    <script>
+        const track = document.getElementById("cardTrack");
+        const indicators = document.querySelectorAll(".custom-indicators button");
+
+        let currentIndex = 0;
+        const cardWidth = 433; // 413 + 20 margin
+        const totalCards = 5;
+        const visibleCards = 3;
+
+        // Function to update slide
+        function updateSlide() {
+            track.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            indicators.forEach(btn => btn.classList.remove("active"));
+            if (indicators[currentIndex]) indicators[currentIndex].classList.add("active");
+        }
+
+        // Indicator click
+        indicators.forEach((btn, idx) => {
+            btn.addEventListener("click", () => {
+                currentIndex = idx;
+                updateSlide();
+            });
+        });
+
+        // Auto slide every 5s (optional)
+        setInterval(() => {
+            currentIndex = (currentIndex + 1) % (totalCards - visibleCards + 1); // loop between 0..2
+            updateSlide();
+        }, 5000);
+
+        updateSlide();
+    </script>
+
+
+</body>
+
+</html>
